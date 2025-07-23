@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script type="module" src="js/app.js"></script>
+    <script type="module" src="js/scroll.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jersey+10&display=swap" rel="stylesheet">
+    <title>Lego</title>
+</head>
+<body>
+    <header class="flex">
+        <nav id="contentNav">
+            <a href="#"><img id="logo" src="img/logo.png" alt="lego logo"></a>
+            <input title="burgerMenu" type="checkbox" id="burgerMenu">
+            <label id="contentBar" for="burgerMenu">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </label>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Modular</a></li>
+                    <li><a href="#">Gallery</a></li>
+                </ul>
+            </nav>
+        </nav>
+        <h1 id="TitleH" class="title positionLeft position">Temple of <span class="textRed">Tranquility</span> </h1>
+       <picture id="modularPicture">
+            <source id="sourceMobile" srcset="img/modularCell.png" media="(max-width: 949px)" />
+            <source id="sourceDesktop" srcset="img/modular.png" media="(min-width: 950px)" />
+            <img id="modularImg" src="img/modular.png" alt="Modular image" />
+        </picture>
+              <div id="positionConten">
+                <p id="textH" class="textRoboto positionLeft position">Discover the perfect blend of tradition and creativity — build your own Japanese Temple with LEGO and let ancient Japan inspire your imagination.</p>
+                <button id="downloadBtn" type="button" class="title position positionLeft">download the manual <img src="img/ArrowIcon.svg" alt="arrow"></button>
+                <div class="position" id="btnContent">
+                    <button type="button" id="modularBtn"><img src="img/iconModular.png" alt="button modular"></button>
+                    <button type="button" id="partsBtn"><img src="img/iconParts.png" alt="part of the modular"></button>
+                </div>
+            </div>
+    </header>
+    <main>
+        <section id="explanation" class="flex animationScroll">
+            <picture>
+                <source srcset="img/leftFlowerCell.png" media="(max-width: 900px)" />
+                <source srcset="img/leftFlower.png" media="(min-width: 950px)" />
+                <img id="leftFlower" class="flower" src="img/leftFlower.png" alt="flower">
+            </picture>
+            <p class="textRoboto textopa" id="opacity">Build a peaceful sanctuary in the sky with Temple of Tranquility. This floating island set features a multi-tiered Japanese pagoda, serene gardens, stone lanterns, and lush forests. With detailed architectural elements and vibrant foliage, it captures the essence of traditional Japanese design in a magical LEGO format. Perfect for display or storytelling, this set invites builders to explore the harmony between nature and culture—brick by brick</p>
+            <picture>
+                <source srcset="img/rightFlowerCell.png" media="(max-width: 900px)" />
+                <source srcset="img/rightFlower.png" media="(min-width: 950px)" />
+                <img id="rightFlower" class="flower" src="img/rightFlower.png" alt="flower">
+            </picture>
+        </section>
+        <section id="modular" class="animationScroll">
+            <h2 class="title textRed centerTitle h2Zise">Modular</h2>
+            <p class="textRoboto textAnimation">Traditional Japanese temple surrounded by shrines and nature. Perfect for display or as part of an East-Asian inspired collection.A fictional design inspired by classical Japanese architecture, incorporating elements from temples like Kiyomizu-dera and Kyoto shrines. Set atop a floating island, it blends realistic architecture with a touch of fantasy.</p>
+            <picture>
+                 <source srcset="img/modularSectionCell.png" media="(max-width: 900px)" />
+                <source srcset="img/modularSection.png" media="(min-width: 950px)" />
+                <img class="modulaSection" class="flower" src="img/modularSection.png" alt="flower">
+            </picture>
+        </section>
+        <section id="Gallery">
+                <h2 class="title TitleH textRed h2Zise">Gallery</h2>
+                <div id="galleryContent">
+                    <picture class="galleryImg">
+                    <source srcset="img/gallery1Cell.jpg" media="(max-width: 900px)" />
+                    <source srcset="img/gallery1.jpg" media="(min-width: 950px)" />
+                    <img  src="img/gallery1.jpg" alt="image of modular">
+                </picture>
+                <picture class="galleryImg">
+                    <source srcset="img/gallery2Cell.jpg" media="(max-width: 900px)" />
+                    <source srcset="img/gallery2.jpg" media="(min-width: 950px)" />
+                    <img  src="img/gallery2.jpg" alt="image of modular">
+                </picture>
+                <picture class="galleryImg">
+                    <source srcset="img/gallery3Cell.jpg" media="(max-width: 900px)" />
+                    <source srcset="img/gallery3.jpg" media="(min-width: 950px)" />
+                    <img  src="img/gallery3.jpg" alt="image of modular">
+                </picture>
+                <picture class="galleryImg">
+                    <source srcset="img/gallery4Cell.jpg" media="(max-width: 900px)" />
+                    <source srcset="img/gallery4.jpg" media="(min-width: 950px)" />
+                    <img  src="img/gallery4.jpg" alt="image of modular">
+                </picture>
+                <picture class="galleryImg">
+                    <source srcset="img/gallery5Cell.jpg" media="(max-width: 900px)" />
+                    <source srcset="img/gallery5.jpg" media="(min-width: 950px)" />
+                    <img  src="img/gallery5.jpg" alt="image of modular">
+                </picture>
+                </div>
+        </section>
+        <section class="videoContent animationScroll">
+            <video class="video " id="desktopVideo" autoplay muted loop playsinline src="img/modularVideo.mp4"></video>
+            <video class="video" id="mobilVideo" autoplay muted loop playsinline src="img/modularVideoCell.mp4"></video>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
