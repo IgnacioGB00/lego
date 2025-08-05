@@ -314,7 +314,7 @@ section{
 #galleryContent {
   position: relative;
   width: 100%;
-  max-width: 800px; /* Ajusta según tu diseño */
+   /* Ajusta según tu diseño */
   height: 100%;    /* Ajusta según el alto de tus imágenes */
   margin: auto;
   overflow: hidden;
@@ -707,5 +707,6 @@ footer{
         padding: 0 0.5em;
     }
 }
+
 
 
