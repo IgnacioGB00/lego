@@ -65,7 +65,7 @@ h1 span{
 }
 #modularImg{
     position: absolute;
-    top: 30%;
+    top: 28%;
     width: 40lvh;
     transform: scale(188%);
     align-self: center;
@@ -705,3 +705,4 @@ footer{
         padding: 0 0.5em;
     }
 }
+
