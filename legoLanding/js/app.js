@@ -40,13 +40,13 @@ function animateImageChange(newSrc, newSrcMobile, newSrcDesktop) {
 }
 
 btnParts.addEventListener('click', () => {
-  animateImageChange('img/parts.png', 'img/partsCell.png', 'img/parts.png');
+  animateImageChange('img/parts.webp', 'img/partsCell.webp', 'img/parts.webp');
   btnParts.style.backgroundColor = '#F9DC24';
   btnModular.style.backgroundColor = '#2C2C2C';
 });
 
 btnModular.addEventListener('click', () => {
-  animateImageChange('img/modular.png', 'img/modularCell.png', 'img/modular.png');
+  animateImageChange('img/modular.webp', 'img/modularCell.webp', 'img/modular.webp');
   btnParts.style.backgroundColor = '#2C2C2C';
   btnModular.style.backgroundColor = '#F9DC24';
 });
@@ -59,4 +59,5 @@ downloadBtn.addEventListener('click', () => {
   link.download = 'LEGO_Templo_Japones_Manual.pdf';
   link.click();
 });
+
 
