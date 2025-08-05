@@ -52,9 +52,11 @@ header h1, header p{
     color: #F9DC24;
     animation-delay: 0.5s;
     font-weight: 100;
+    text-shadow: -1px -1px 0 #d7bb02, 1px -1px 0 #d7bb02, -1px 1px 0 #d7bb02, 1px 1px 0 #d7bb02;
 }
 h1 span{
     color: #C1272D;
+    text-shadow: none;
 }
 #textH{
     margin: 1em 0;
@@ -705,4 +707,5 @@ footer{
         padding: 0 0.5em;
     }
 }
+
 
