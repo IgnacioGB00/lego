@@ -445,7 +445,7 @@ footer{
 }
 .ulFooter{
     display: flex;
-    gap: 2em;
+    gap: 1em;
     padding: 1em 0;
 }
 .ulFooter li{
@@ -719,3 +719,4 @@ footer{
         padding: 0 0.5em;
     }
 }
+
